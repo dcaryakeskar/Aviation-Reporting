@@ -1,0 +1,28 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Environment ---
+.env
+venv/
+.venv/
+
+# --- Data and Models ---
+data/
+models/
+*.h5
+*.pkl
+*.joblib
+
+# --- Outputs ---
+plots/
+*.pdf
+*.png
+
+# --- Streamlit / Cache ---
+.streamlit/
+.cache/
+tmp/
+temp/
